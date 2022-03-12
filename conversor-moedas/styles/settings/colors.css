@@ -1,0 +1,8 @@
+/*Para criar variavel no CC:
+    - Inicia com: --
+    - nome da var: --nomevar */
+
+:root {
+    --color-background: #212429;
+    --color-font: #fff;
+}
