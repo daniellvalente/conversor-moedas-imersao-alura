@@ -4,15 +4,37 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="./styles/settings/colors.css">
-    <link rel="stylesheet" href="./styles/generic/reset.css">
-    <link rel="stylesheet" href="./styles/elementes/base.css">
+    <title>Conversor de Moedas</title>
     
+    <link rel="stylesheet" href="./styles/index.css">
+
   </head>
   <body>
-    <h1>Conversor de Modeas</h1>
+    <main class="stage">      
+      <h1 class="title">Conversor de Modeas</h1>
+
+      <section class="converter">
+        <form class="wrapper-coin">
+          <input class="coin" type="number"/> <!-- Par o usuario preencher-->
+          <select class="list-coins">
+            <option value="real"> Real </option>
+            <option value="dolar"> Dolar </option>
+          </select>
+        </form>  
+        <span class="comparator"> = </span>
+        <form class="wrapper-coin">
+          <input class="coin" type="number"/> <!-- QUe vai ser o resultado-->
+          <select class="list-coins">
+            <option class="real"> Real </option>
+            <option class="dolar"> Dolar </option>
+          </select>
+        </form>
+      </section>
+    </main>
     <script type="module" src="/main.js"></script>
   </body>
 </html>

@@ -1,0 +1,7 @@
+/* Para criar variaveis de espaçamento*/
+
+:root{
+    --gap-small: 1rem;
+    --gap-medium: 2rem;
+    --gap-big: 4rem;
+}
